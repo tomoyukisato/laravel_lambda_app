@@ -1,0 +1,13 @@
+<mxfile host="65bd71144e" modified="2020-11-19T03:28:43.004Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.50.0 Chrome/83.0.4103.122 Electron/9.2.1 Safari/537.36" version="13.6.5" etag="5EI6ILkMjAoJB8Funxs9">
+    <diagram id="vdsnu7t71ar-dxZa1SQs" name="Page-1">
+        <mxGraphModel dx="607" dy="981" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="&lt;div&gt;　&lt;/div&gt;&lt;div&gt;取引情報請求書発行予定のステージを確認する&lt;/div&gt;&lt;div&gt;↓&lt;/div&gt;&lt;div&gt;取引上のカードを取得する&lt;/div&gt;&lt;div&gt;↓&lt;/div&gt;&lt;div&gt;関連づいた会社情報を取得する&lt;/div&gt;&lt;div&gt;↓&lt;/div&gt;&lt;div&gt;DepartmentIDを確認する&lt;/div&gt;&lt;div&gt;↓&lt;/div&gt;&lt;div&gt;（有）&lt;/div&gt;&lt;div&gt;↓&lt;/div&gt;&lt;div&gt;MF　APIを叩いて請求書発行を行う。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;（無）&lt;/div&gt;&lt;div&gt;↓&lt;/div&gt;&lt;div&gt;MFから取得した会社情報を登録&lt;/div&gt;&lt;div&gt;→会社名・郵便番号・都道府県・住所・電話番号・担当者（部門・役職・氏名）&lt;/div&gt;&lt;div&gt;↓&lt;/div&gt;&lt;div&gt;登録した情報からDepartmentIDを取得する&lt;/div&gt;&lt;div&gt;↓&lt;/div&gt;&lt;div&gt;DepartmentIDを利用して、請求書発行する&lt;/div&gt;&lt;div&gt;↓&lt;/div&gt;&lt;div&gt;請求書発行した会社のDeparmentIDを更新する&lt;/div&gt;&lt;div&gt;↓&lt;/div&gt;&lt;div&gt;請求書を発行した取引を取引完了に移動する。&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="210" y="160" width="370" height="480" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
